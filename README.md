@@ -1,4 +1,5 @@
 # Transformers-Sentiment-Analysis-Python
+# Kaggle dataset used: https://www.kaggle.com/datasets/arhamrumi/amazon-product-reviews
 The repository includes a Jupyter Notebook file, "Transformers Sentiment Analysis.ipynb," which showcases the step-by-step process of the sentiment analysis task.
 
 The notebook begins by conducting necessary package imports and checking for the availability of CUDA for GPU acceleration. It then proceeds to read a CSV file, 'Reviews.csv,' containing customer reviews. A random sample of 50% of the data is selected for further analysis.
