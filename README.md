@@ -4,7 +4,16 @@
 
 ![Sentiment Distribution](5_epoch_sentiment_distribution.png)
 
-This repository contains code and data for implementing sentiment analysis using the Transformers library, specifically the BERT model. Sentiment analysis is a natural language processing task where the goal is to classify text into sentiment categories, such as positive, neutral, or negative.
+## Table of Contents
+
+- [Introduction](#introduction)
+- [Files in the Repository](#files-in-the-repository)
+- [Usage](#usage)
+- [Sample Message Predictions](#sample-message-predictions)
+- [Acknowledgments](#acknowledgments)
+
+## Introduction
+This repository contains code and data for implementing sentiment analysis using the Transformers library, specifically the BERT model. Sentiment analysis is a natural language processing task where the goal is to classify text into sentiment categories, such as positive, neutral, or negative. This sentiment analysis implementation uses the BERT (Bidirectional Encoder Representations from Transformers) model for classifying text into sentiment categories. The dataset used for training and evaluation is provided in the [Acknowledgments](#acknowledgments) section since the dataset is too large to upload. The sentiment labels in this dataset are mapped to three classes: negative, neutral, and positive.
 
 ## Files in the Repository
 
@@ -19,10 +28,6 @@ This repository contains code and data for implementing sentiment analysis using
 - `train_test_loss_5_epoch.png`: A plot showing the training and testing loss values over 5 epochs.
 
 - `transformers_sentiment_analysis.py`: Python script containing the code for sentiment analysis using Transformers.
-
-## Introduction
-
-This sentiment analysis implementation uses the BERT (Bidirectional Encoder Representations from Transformers) model for classifying text into sentiment categories. The dataset used for training and evaluation is provided in the `Acknowledgements` section since the dataset is too large to upload. The sentiment labels in this dataset are mapped to three classes: negative, neutral, and positive.
 
 ## Usage
 
