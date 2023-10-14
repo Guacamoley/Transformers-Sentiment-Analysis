@@ -22,7 +22,7 @@ This repository contains code and data for implementing sentiment analysis using
 
 ## Introduction
 
-This sentiment analysis implementation uses the BERT (Bidirectional Encoder Representations from Transformers) model for classifying text into sentiment categories. The dataset used for training and evaluation is provided as a CSV file named `Reviews.csv`. The sentiment labels in this dataset are mapped to three classes: negative, neutral, and positive.
+This sentiment analysis implementation uses the BERT (Bidirectional Encoder Representations from Transformers) model for classifying text into sentiment categories. The dataset used for training and evaluation is provided in the `acknowledgements` section since the dataset is too large to upload. The sentiment labels in this dataset are mapped to three classes: negative, neutral, and positive.
 
 ## Usage
 
